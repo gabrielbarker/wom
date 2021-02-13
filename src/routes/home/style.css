@@ -2,4 +2,15 @@
 	padding: 56px 20px;
 	min-height: 100%;
 	width: 100%;
+	background: #111;
+	color: #FFF;
+	font-size: xx-large;
+}
+
+.home span:hover {
+	color: #00FF00;
+}
+
+.home {
+	text-align: center;
 }

@@ -5,16 +5,13 @@ import style from './style.css';
 const Header: FunctionalComponent = () => {
     return (
         <header class={style.header}>
-            <h1>Preact App</h1>
+            <h1>WOM</h1>
             <nav>
                 <Link activeClassName={style.active} href="/">
-                    Home
+                    Issues
                 </Link>
-                <Link activeClassName={style.active} href="/profile">
-                    Me
-                </Link>
-                <Link activeClassName={style.active} href="/profile/john">
-                    John
+                <Link activeClassName={style.active} href="/">
+                    Team
                 </Link>
             </nav>
         </header>

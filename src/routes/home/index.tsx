@@ -4,8 +4,8 @@ import style from './style.css';
 const Home: FunctionalComponent = () => {
     return (
         <div class={style.home}>
-            <h1>Home</h1>
-            <p>This is the Home component.</p>
+            <h1><span>WOMZINE</span></h1>
+            <p>COMING SOON</p>
         </div>
     );
 };
